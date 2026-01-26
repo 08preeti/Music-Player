@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="player">
+    <img id="cover" src="images/cover1.jpg" class="cover">
+    
+    <h2 id="title">Song One</h2>
+
+    <div class="time">
+        <span id="currentTime">0:00</span>
+        <span id="duration">0:00</span>
+    </div>
+
+    <input type="range" id="progress" value="0">
+
+    <div class="controls">
+        <button id="prev">⏮</button>
+        <button id="play">▶</button>
+        <button id="next">⏭</button>
+    </div>
+
+    <div class="volume-control">
+        <span id="volumeIcon">🔊</span>
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="0.5">
+    </div>
+
+    <ul class="playlist">
+        <li class="active">Khulke Jeene Kaa..</li>
+        <li>Nashe Se chadh Gaye..</li>
+        <li>Aaj Kal Zindagi..</li>
+        <li>Iktara..</li>
+        <li>Iiahe..</li>
+        <li>Love You Zindagi..</li>
+
+    </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

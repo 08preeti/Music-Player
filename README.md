@@ -42,5 +42,11 @@ Audio handling in JavaScript
 
 Responsive UI design
 
+##  Live Demo
+
+👉 **Live Website:**  
+https://08preeti.github.io/Music-Player/
+
+
 # Author
 Preeti Chikkali
